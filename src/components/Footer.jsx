@@ -55,8 +55,8 @@ export default function Footer({ variant = "one" }) {
       </div>
       <div className={`mx-auto border-t ${v.barOuter}`}>
         <div className={`flex flex-wrap justify-between gap-2.5 uppercase text-[#8a9ea2] ${v.bar}`}>
-          <span>Design by <b className="font-medium text-white">Radiant Templates</b></span>
-          <span>Powered by <b className="font-medium text-white">Webflow</b></span>
+          <span>Design by <b className="font-medium text-white">Zuhal Sohaib</b></span>
+          <span>Developed by <b className="font-medium text-white">Zuhal Sohaib</b></span>
         </div>
       </div>
     </footer>

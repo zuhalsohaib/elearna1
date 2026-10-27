@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { @apply scroll-smooth; font-size: clamp(13px, 0.5vw + 5px, 15px); }
+  @media (max-width: 1023px) { html { font-size: 15px; } }
+  body { @apply overflow-x-hidden bg-white font-body leading-relaxed text-ink; }
+  h1, h2, h3, h4, h5, h6 { @apply font-head font-medium leading-tight; }
+}
